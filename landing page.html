@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-image: url('https://www.shutterstock.com/shutterstock/videos/1106639121/thumb/12.jpg?ip=x480');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      background-color: white;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 25px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .aboutus,
+    .features {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .aboutus {
+      background-color: bisque;
+    }
+
+    .aboutus h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .aboutus h4 {
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .aboutus p {
+      max-width: 700px;
+      margin: 10px auto;
+      font-size: 16px;
+    }
+
+    .features {
+      background-color: #fff;
+    }
+
+    .features h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 36px;
+      }
+
+      .aboutus h1, .features h2 {
+        font-size: 24px;
+      }
+
+      .cta-button {
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Product</h1>
+    <p>The best solution to your problem.</p>
+    <a href="home.html" class="cta-button">Home</a>
+    <a href="service.html" class="cta-button">Services</a>
+    <a href="buy.html" class="cta-button">Buy</a>
+  </header>
+
+  <section class="aboutus">
+    <h1><u>About Us</u></h1>
+    <h4>15 years of passion for achieving better results for our clients</h4>
+    <p>Our mission is to make life simpler through innovative technology.
+    We believe in creating intuitive, affordable, and powerful solutions that help people and businesses thrive.</p>
+    <p>Founded in 2025, our team is made up of passionate developers, designers, and creators committed to quality and customer satisfaction.
+    Whether you're an individual, a startup, or a large enterprise, we have something valuable to offer.</p>
+  </section>
+
+  <section class="features">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>✔ Easy to use</li>
+      <li>✔ Affordable</li>
+      <li>✔ Great support</li>
+      <li>✔ Time management</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Product | Contact: info@example.com</p>
+  </footer>
+
+</body>
+</html>
